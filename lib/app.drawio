@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="2MWxOuIkq_q8rJrH-G6c" name="Page-1">
+        <mxGraphModel dx="605" dy="326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.375;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="User&lt;br&gt;&lt;br&gt;first_name&lt;br&gt;last_name" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="90" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Teacher(User)&lt;br&gt;&lt;br&gt;has access to User's first_name, last_name&lt;br&gt;&lt;br&gt;includes Teacher specific attribute 'knowledge' (not related to Student's knowledge)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="350" width="230" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Student(User)&lt;br&gt;&lt;br&gt;has access to User's first_name, last_name&lt;br&gt;&lt;br&gt;includes Student specific attribute 'knowledge' (not related to Teacher's knowledge)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="360" width="220" height="160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
